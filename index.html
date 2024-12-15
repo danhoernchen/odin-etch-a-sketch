@@ -11,6 +11,7 @@
     <div class="controls">
       <button id="resetBtn">Reset</button>
       <div class="sizeCont">
+        <label for="size">Grid-Size</label>
         <input
           type="range"
           min="16"
@@ -22,9 +23,12 @@
         />
         <output>16</output>
       </div>
-
-      <input id="color1" type="color" class="color" value="#f4b8e4" />
-      <input id="color2" type="color" class="color" value="#f4b8e4" />
+      <div class="colors">
+        <label for="color1">Background-Color</label>
+        <input id="color1" type="color" class="color" value="#f4b8e4" />
+        <label for="color2">Foreground Color</label>
+        <input id="color2" type="color" class="color" value="#f4b8e4" />
+      </div>
     </div>
     <div id="mainContainer" class="mainContainer"></div>
 
