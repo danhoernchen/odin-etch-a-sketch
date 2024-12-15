@@ -1,0 +1,48 @@
+body {
+    box-sizing: border-box;
+    background-color: #232136;
+    color: #fffaf3;
+}
+
+#mainContainer {
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    height: 90vh;
+    width: 90vh;
+    gap: 0;
+}
+
+.gridDiv {
+    box-sizing: border-box;
+    border: 2px solid #393552;
+    flex-grow: 1;
+}
+
+.controls {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.controls button {
+    padding: 1vh;
+    margin: 1vh;
+    background-color: #fffaf3;
+    border: 1px solid #fffaf3;
+    border-radius: 7%;
+
+}
+
+.controls .color {
+    margin: 1vh;
+}
+
+.sizeCont {
+    margin: 1vh;
+    text-align: center;
+    font-size: 24px;
+}
