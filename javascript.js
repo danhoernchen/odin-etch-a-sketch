@@ -25,7 +25,6 @@ function createGrid() {
 
 function changeColor() {
   this.style.backgroundColor = color2.value;
-  console.log("changeColor");
 }
 
 document.addEventListener("DOMContentLoaded", createGrid);
