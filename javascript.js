@@ -25,6 +25,13 @@ function createGrid() {
 
 function changeColor() {
   this.style.backgroundColor = color2.value;
+  if (!this.style.opacity) {
+    this.style.opacity = 0;
+  }
+  opacity = (parseFloat(this.style.opacity) + 0.1).toString();
+  this.style.opacity = opacity;
+  console.log(this.style.opacity);
 }
 
+function setOpacity() {}
 document.addEventListener("DOMContentLoaded", createGrid);
